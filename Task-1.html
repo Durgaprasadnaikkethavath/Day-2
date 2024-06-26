@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task-1 For College Timetable</title>
+  </head>
+  <style>
+    body {
+      justify-content: center;
+      text-align: center;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+    table {
+      width: 100%;
+      /* margin-left: 80px; */
+      background-color: #f1f3f5;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 700;
+    }
+    tr,
+    td,
+    th {
+      padding: 8px;
+    }
+  </style>
+  <body>
+    <h1>Interim Term 2 Elizabeth College Timetable 2023-24</h1>
+    <table border="1">
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <!-- <tr>
+        <td>8.30-9.30</td>
+        <td>9.30-10.30</td>
+        <td>10.30-11.00</td>
+        <td>11.00-12.00</td>
+        <td>12.00-12.30</td>
+      </tr> -->
+      <tr>
+        <td>8.30-9.30</td>
+        <td rowspan="2" style="background-color: #fff9db">Line 1</td>
+        <td rowspan="2" style="background-color: #eebefa">Line 4</td>
+        <td rowspan="2" style="background-color: #ffe8cc">Line 3</td>
+        <td rowspan="2" style="background-color: #d3f9d8">Line 1</td>
+        <td rowspan="2" style="background-color: #ffe8cc">Line 3</td>
+      </tr>
+      <tr>
+        <td>9.30-10.30</td>
+      </tr>
+      <tr>
+        <td>10.30-11.00</td>
+        <td>Recess</td>
+        <td>Recess</td>
+        <td>Recess</td>
+        <td>Recess</td>
+        <td>Recess</td>
+      </tr>
+      <tr>
+        <td>11.00-12.00</td>
+        <td rowspan="2" style="background-color: #c5f6fa">Line 2</td>
+        <td rowspan="2" style="background-color: #d3f9d8">Line 5</td>
+        <td style="background-color: #f3d9fa">Home Group</td>
+        <td rowspan="2" style="background-color: #eebefa">Line 4</td>
+        <td rowspan="2" style="background-color: #fff9db">Line 1</td>
+      </tr>
+      <tr>
+        <td>12.00-12.30</td>
+        <td style="background-color: #c5f6fa">Line 2</td>
+      </tr>
+      <tr>
+        <td>12.30-1.00</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+      </tr>
+      <tr>
+        <td>1.00-2.00</td>
+        <td rowspan="2" style="background-color: #ffe8cc">line 3</td>
+        <td style="background-color: #d3f9d8">Line 5</td>
+        <td style="background-color: #fff9db">Line 1</td>
+        <td style="background-color: #d3f9d8">Line 5</td>
+        <td rowspan="2" style="background-color: #c5f6fa">Line 2</td>
+      </tr>
+      <tr>
+        <td>2.00-3.00</td>
+        <td rowspan="2">staff Meeting</td>
+        <td rowspan="2">Teacher Assessment & Preparation</td>
+        <td rowspan="2">Leadership Meeting</td>
+      </tr>
+      <tr>
+        <td>3.00-3.30</td>
+        <td>Teacher Assessment & Preparation</td>
+        <td>Teacher Assessment & Preparation</td>
+      </tr>
+    </table>
+  </body>
+</html>

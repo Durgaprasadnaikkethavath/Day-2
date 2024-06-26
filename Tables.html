@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables</title>
+    <style>
+      .name {
+        background-color: #f1f3f5;
+        width: 100%;
+        /* height: 100%; */
+        border-collapse: collapse;
+        /* text-align: center; */
+      }
+      /* tr,
+      td,
+      th {
+        padding: 20px;
+      } */
+      .header,
+      .heading_name,
+      .sub_heading {
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="2">
+      <h1>HTML Table</h1>
+      <thead>
+        <caption>
+          Person Details Table
+        </caption>
+        <tr style="background-color: red">
+          <th>Name</th>
+          <th>Id</th>
+          <th>CourseName</th>
+          <th>Marks</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Durga</td>
+          <td>93</td>
+          <td>HTML</td>
+          <td>90</td>
+          <td>durga@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Prasad</td>
+          <td>45</td>
+          <td>CSS</td>
+          <td>86</td>
+          <td>prasad@gmail.com</td>
+        </tr>
+        <tr>
+          <td>santhosh</td>
+          <td>65</td>
+          <td>JavaScript</td>
+          <td>32</td>
+          <td>santhosh@gmail.com</td>
+        </tr>
+        <tr>
+          <td>malli</td>
+          <td>89</td>
+          <td>ReactJS</td>
+          <td rowspan="2">88</td>
+          <td>malli@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Ram</td>
+          <td>14</td>
+          <td>NextJS</td>
+          <!-- <td>88</td> -->
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Hair</td>
+          <td>36</td>
+          <td>HTML</td>
+          <td>68</td>
+          <td>hair@gmail.com</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total</th>
+
+          <td colspan="3">452</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h1 style="text-align: center">Home Work classes</h1>
+
+    <table border="1" class="name">
+      <tr class="header">
+        <th class="heading_name" style="background-color: #ffd8a8">Header 1</th>
+        <th class="heading_name">Header 2</th>
+        <th class="heading_name">Header 3</th>
+      </tr>
+      <tr class="header">
+        <td class="sub_heading" style="background-color: #ffd8a8">Data 1</td>
+        <td class="sub_heading">Data 2</td>
+        <td class="sub_heading">Data 3</td>
+      </tr>
+      <tr class="header">
+        <td class="sub_heading" style="background-color: #ffd8a8">Data 4</td>
+        <td class="sub_heading">Data 5</td>
+        <td class="sub_heading">Data 6</td>
+      </tr>
+    </table>
+  </body>
+</html>
